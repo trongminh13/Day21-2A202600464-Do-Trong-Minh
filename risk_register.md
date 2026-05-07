@@ -1,6 +1,6 @@
 # TÀI LIỆU QUẢN TRỊ RỦI RO AI (AI SAFETY & GOVERNANCE) — V1.0
 **Dự án:** DOMIN-H Family  
-**Chịu trách nhiệm (Owner):** Jimala (Founder & AI Lead)  
+**Chịu trách nhiệm (Owner):** Đỗ Trọng Minh (Founder & AI Lead)  
 **Cập nhật lần cuối:** 07/05/2026
 
 ## SỔ ĐĂNG KÝ RỦI RO (RISK REGISTER) — QUÝ 3/2026
@@ -50,7 +50,7 @@
 - **Mitigation Action:** Xây dựng một Abstraction Layer (Lớp trung gian) trong code Backend. KHÔNG gọi trực tiếp thư viện của Google, mà gọi qua một interface chung để có thể switch sang Claude API chỉ bằng việc đổi 1 file config trong vòng 4 giờ.
 
 ### 🟢 RISK 5: ĐIỂM CHẾT NHÂN SỰ CỐT LÕI (Founder-bandwidth Risk)
-- **If:** Jimala (Founder kiêm AI Lead duy nhất nắm toàn bộ logic config System Prompt và quyền Admin Cloud) bị ốm nặng/sốt xuất huyết phải nằm viện đúng 1 tuần lễ Launch (Khai giảng tháng 9).
+- **If:** Đỗ Trọng Minh (Founder kiêm AI Lead duy nhất nắm toàn bộ logic config System Prompt và quyền Admin Cloud) bị ốm nặng/sốt xuất huyết phải nằm viện đúng 1 tuần lễ Launch (Khai giảng tháng 9).
 - **Then:** Server hit rate-limit hoặc có bug nghiêm trọng ở luồng Onboarding phụ huynh. Team Frontend không có quyền truy cập hoặc không biết cách fix code AI.
 - **Leading to:** App không thể phục vụ khách hàng mới. Đốt lãng phí toàn bộ ngân sách Marketing đã chạy trong tuần đó, hụt doanh thu ước tính $3,000 = **Mất 1 tháng runway**.
 - **Likelihood (1-5):** 3 (Startup làm việc 14 tiếng/ngày, rủi ro sức khỏe rất cao).
