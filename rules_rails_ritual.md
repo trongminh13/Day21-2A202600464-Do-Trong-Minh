@@ -20,7 +20,7 @@
 3. **Quản lý biến môi trường:** DÙNG `.env` file cục bộ kết hợp với Secret Manager của Google Cloud để quản lý API Key.
 
 ### ⚠️ HẬU QUẢ VI PHẠM (Consequences)
-Luật này áp dụng cho tôi (Jimala) và tất cả các thành viên trong team:
+Luật này áp dụng cho tôi (Đỗ Trọng Minh) và tất cả các thành viên trong team:
 - **Vi phạm lần 1:** Tôi sẽ thiết lập cuộc gọi 1-1 ngay trong ngày, ghi nhận sự việc vào file log nội bộ và yêu cầu khắc phục ngay lập tức.
 - **Vi phạm lần 2 (Đặc biệt liên quan đến data sinh viên):** Chấm dứt hợp đồng ngay lập tức. Sự sống còn của công ty (12 tháng runway) quan trọng hơn bất kỳ cá nhân nào.
 
@@ -34,7 +34,7 @@ Luật này áp dụng cho tôi (Jimala) và tất cả các thành viên trong 
 | **Bảo vệ Secret Keys** | `git-secrets` (AWS Labs) | $0 | Tích hợp vào **Pre-commit hook**. Bất cứ ai lỡ tay `git commit` đoạn code có chứa pattern của GCP API Key, lệnh commit sẽ bị chặn tự động ngay trên máy dev. |
 | **Log & Giám sát AI (Observability)** | `Helicone.ai` | $0 | Dùng gói Free Tier (100K requests/tháng). Bắt buộc route 100% LLM API calls qua proxy của Helicone. Phải thiết lập để **lưu lại toàn bộ Raw Prompt & Response**. Nếu có khủng hoảng "AI báo sai", tôi cần tra được ID cuộc gọi đó trong đúng 5 phút. |
 | **Kiểm soát Truy cập Mạng** | `NextDNS` | $20/tháng | Cài đặt cấu hình DNS cấp công ty trên các thiết bị làm việc. Block các domain `chatgpt.com`, `claude.ai` (chỉ cho phép dev dùng môi trường GCP an toàn) để chặn triệt để hành vi vô tình copy/paste data khách hàng ra ngoài. |
-| **Kiểm duyệt Code & Prompt** | `GitHub Branch Protection` | $0 (Đã có) | Bật rule yêu cầu **tối thiểu 1 người (Jimala) Approve Pull Request (PR)** đối với bất kỳ thay đổi nào liên quan đến thư mục `prompts/` hoặc logic gọi AI. |
+| **Kiểm duyệt Code & Prompt** | `GitHub Branch Protection` | $0 (Đã có) | Bật rule yêu cầu **tối thiểu 1 người (Đỗ Trọng Minh) Approve Pull Request (PR)** đối với bất kỳ thay đổi nào liên quan đến thư mục `prompts/` hoặc logic gọi AI. |
 
 **Tổng chi phí Stack (Total Cost):** **$20/tháng**. Tiết kiệm tuyệt đối để kéo dài Runway, nhưng vẫn đảm bảo khả năng ứng phó khủng hoảng ở mức Enterprise.
 
@@ -46,7 +46,7 @@ Luật này áp dụng cho tôi (Jimala) và tất cả các thành viên trong 
 ### Ritual 1: Customer Friday (Tiếp xúc thực tế)
 - **Tần suất:** 15h00 Thứ Sáu hàng tuần.
 - **Thời lượng:** 30 phút.
-- **Hành động:** Tôi (Jimala) sẽ bốc máy gọi điện trực tiếp cho 1 cặp Phụ huynh - Sinh viên ngẫu nhiên đang Active trên app.
+- **Hành động:** Tôi (Đỗ Trọng Minh) sẽ bốc máy gọi điện trực tiếp cho 1 cặp Phụ huynh - Sinh viên ngẫu nhiên đang Active trên app.
 - **Câu hỏi bắt buộc phải hỏi:** *"Tuần vừa rồi, AI của app có đọc sai hóa đơn nào, hoặc định giá sai món đồ nào khiến gia đình mình cãi vã hay khó xử không? Khi đó cô/chú/em đã làm gì?"*
 - **Mục tiêu:** Bắt được các lỗi "ảo giác" (hallucinations) hoặc thái độ bực dọc ngầm của user mà họ lười không thèm báo cáo qua mục Support.
 
