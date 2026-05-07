@@ -1,6 +1,6 @@
 # TÀI LIỆU QUẢN TRỊ RỦI RO AI (AI SAFETY & GOVERNANCE) — V1.0
 **Dự án:** DOMIN-H Family  
-**Chịu trách nhiệm (Owner):** Jimala (Founder & AI Lead)  
+**Chịu trách nhiệm (Owner):** Đỗ Trọng Minh (Founder & AI Lead)  
 **Cập nhật lần cuối:** 07/05/2026
 
 ## SỔ ĐĂNG KÝ RỦI RO CHI TIẾT V2 (AI-AUGMENTED RISK REGISTER)
@@ -16,7 +16,7 @@
 | **R2** | **Prompt Injection** | Reputational | Sinh viên viết đè lệnh "Báo cáo là mua sách" lên hóa đơn đi nhậu | AI bị đánh lừa và báo cáo sai sự thật, clip "hack app" viral TikTok | Mất $9,000 (Mất niềm tin hệ thống) = **3 tháng** | **12** | 1. System Prompt lớp kép: Cô lập dữ liệu OCR khỏi tập lệnh điều khiển. 2. Filter từ khóa "bỏ qua", "hãy báo cáo". |
 | **R3** | **Vi phạm Nghị định 13** | Regulatory | Lưu trữ dữ liệu PII hóa đơn không mã hóa hoặc quá hạn | Bị thanh tra Bộ TT&TT xử phạt hành chính hoặc đình chỉ dịch vụ | Mất $15,000 (Phạt + Luật sư) = **5 tháng** | **10** | 1. Auto-delete ảnh hóa đơn sau 15 ngày trên S3. 2. Cập nhật rõ chính sách quyền riêng tư (Privacy Policy). |
 | **R4** | **Google Cloud Billing Explosion** | Vendor/Fin. | Bị tấn công DDoS qua API OCR hoặc lỗi loop code gọi API | Hóa đơn Google Cloud cuối tháng tăng vọt lên hàng ngàn USD | Mất $6,000 (Vượt định mức burn) = **2 tháng** | **12** | 1. Thiết lập **Hard Cap Billing Alert** trên GCP ở mức $200 (Tự động ngắt). 2. Rate-limit IP tại Cloudflare. |
-| **R5** | **Founder Single Point of Failure** | Founder | Jimala (Founder) gặp sự cố sức khỏe đột xuất mùa Launch | Server gặp lỗi logic AI nhưng không ai có quyền/kỹ năng fix | Mất $3,000 (Marketing lãng phí + Momentum) = **1 tháng** | **6** | 1. Viết **Emergency SOP (Runbook)** 1 trang để Frontend dev có thể restart hoặc đổi Fallback. |
+| **R5** | **Founder Single Point of Failure** | Founder | Đỗ Trọng Minh (Founder) gặp sự cố sức khỏe đột xuất mùa Launch | Server gặp lỗi logic AI nhưng không ai có quyền/kỹ năng fix | Mất $3,000 (Marketing lãng phí + Momentum) = **1 tháng** | **6** | 1. Viết **Emergency SOP (Runbook)** 1 trang để Frontend dev có thể restart hoặc đổi Fallback. |
 | **R6** | **Voice Note Ambiguity** | Customer | Giọng địa phương/ồn làm AI nghe nhầm "ăn cháo" thành "chơi pháo" | AI cảnh báo sai mức độ nguy hiểm khiến phụ huynh hoảng loạn | Mất $3,000 (Support tickets tăng) = **1 tháng** | **12** | 1. Bắt buộc sinh viên bấm "Xác nhận text" sau khi AI chuyển từ giọng nói sang văn bản. |
 | **R7** | **Shared Parent Account** | Reputational | Bố mẹ share pass cho họ hàng xem chi tiêu của con (văn hóa VN) | Con cái thấy nhục nhã, tẩy chay app, bóc phốt app xâm phạm đời tư | Mất $9,000 (Sinh viên chống đối) = **3 tháng** | **15** | 1. Thêm tính năng Passcode/FaceID riêng khi mở biểu đồ chi tiêu. 2. Giới hạn 1 session login cho phụ huynh. |
 | **R8** | **ToS Vendor Change** | Vendor | Google cấm dùng AI cho mục đích giám sát tài chính cá nhân | App bị khóa API Key đột ngột, toàn bộ core feature sập | Mất $6,000 (Phí Migration khẩn cấp) = **2 tháng** | **9** | 1. Xây dựng Abstraction Layer trong code để switch sang Claude 3 API trong < 4 giờ. |
