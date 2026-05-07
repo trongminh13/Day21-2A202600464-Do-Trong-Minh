@@ -1,6 +1,6 @@
 # TÀI LIỆU QUẢN TRỊ RỦI RO AI (AI SAFETY & GOVERNANCE) — V1.0
 **Dự án:** DOMIN-H Family  
-**Chịu trách nhiệm (Owner):** Jimala (Founder & AI Lead)  
+**Chịu trách nhiệm (Owner):** Đỗ Trọng Minh (Founder & AI Lead)  
 **Cập nhật lần cuối:** 07/05/2026
 
 ## 🚨 SỔ TAY CỨU HỘ KHẨN CẤP (INCIDENT RESPONSE PLAYBOOK)
@@ -48,25 +48,25 @@ Gọi điện thoại ngay lập tức nếu có số. Nếu không, gửi Email
 *(Quy tắc: Xưng "Tôi/Em", nhận lỗi thẳng, bồi thường bằng tiền cụ thể ngay trong ngày, để lại SĐT cá nhân).*
 
 > **[Mẫu Template Copy/Paste]**
-> Tiêu đề: Từ Jimala (Founder DOMIN-H) về sự cố hóa đơn sáng nay
+> Tiêu đề: Từ Đỗ Trọng Minh (Founder DOMIN-H) về sự cố hóa đơn sáng nay
 > 
 > Chào cô/chú và em [Tên Sinh viên],
-> Đây là Jimala - Founder của ứng dụng DOMIN-H. Cháu/Em vừa tự mình kiểm tra hệ thống và xác nhận AI của ứng dụng đã phân tích sai lệch hóa đơn lúc [Giờ] sáng nay. Đây hoàn toàn là lỗi thuật toán từ phía công ty, em [Tên sinh viên] hoàn toàn không khai khống hay nói dối.
+> Đây là Đỗ Trọng Minh - Founder của ứng dụng DOMIN-H. Cháu/Em vừa tự mình kiểm tra hệ thống và xác nhận AI của ứng dụng đã phân tích sai lệch hóa đơn lúc [Giờ] sáng nay. Đây hoàn toàn là lỗi thuật toán từ phía công ty, em [Tên sinh viên] hoàn toàn không khai khống hay nói dối.
 > 
 > **Cháu/Em đang làm gì:** Cháu đã tạm tắt hệ thống AI để rà soát, và tự tay đính chính khoản chi này trên app để cô/chú an tâm mở lại thẻ cho em.
 > **Cách cháu/em khắc phục:** Cháu xin phép hoàn trả lại 100% phí gói cước (99.000đ) ngày hôm nay vào thẳng tài khoản cô/chú - không cần điền bất kỳ form khiếu nại nào cả.
 > **Liên hệ cháu/em 24/7:** Nếu gia đình mình cần cháu trực tiếp giải thích thêm, xin hãy gọi cháu qua số cá nhân: 09xx.xxx.xxx.
 > 
 > Cháu/Em thực sự xin lỗi vì đã mang lại rắc rối cho gia đình.
-> -- Jimala (Đỗ Trọng Minh)
-> jimala@dominh.com
+> -- Đỗ Trọng Minh (Đỗ Trọng Minh)
+> Đỗ Trọng Minh@dominh.com
 
 #### 📢 Hành động 2: Xử lý công cộng (Public Response)
 Dùng chính tài khoản cá nhân của Founder (hoặc tài khoản Admin Group) comment thẳng vào bài phốt hoặc đăng một Tweet đính chính.
 *(Quy tắc: Dưới 280 ký tự, đi thẳng vào vấn đề, không văn mẫu PR doanh nghiệp).*
 
 > **[Mẫu Template Copy/Paste]**
-> Chào mọi người, mình là Jimala (Founder DOMIN-H). Mình vừa check hệ thống và xác nhận AI của app đã đọc sai hóa đơn gây hiểu lầm nghiêm trọng cho gia đình bạn sinh viên trên.
+> Chào mọi người, mình là Đỗ Trọng Minh (Founder DOMIN-H). Mình vừa check hệ thống và xác nhận AI của app đã đọc sai hóa đơn gây hiểu lầm nghiêm trọng cho gia đình bạn sinh viên trên.
 > Mình đã tạm tắt tính năng AI này để fix. Các luồng xin tiền khác vẫn hoạt động b/thường. Mình đang gọi trực tiếp xin lỗi gia đình bạn ấy lúc này. Cập nhật chi tiết sẽ có sau 24h.
 
 #### 💬 Hành động 3: Cập nhật cho Team (Slack/Zalo Nội bộ)
